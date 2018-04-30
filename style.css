@@ -1,0 +1,17 @@
+body {
+	background: khaki;
+	font-family: Tahoma, sans-serif;
+}
+
+.list-item {
+	display: none;
+}
+
+ul {
+	list-style: circle;
+}
+
+a {
+	text-decoration: none;
+	
+}
