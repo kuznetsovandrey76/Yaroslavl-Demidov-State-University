@@ -1,0 +1,22 @@
+{
+  "name": "yarsu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuznetsovandrey76/Yaroslavl-Demidov-State-University.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuznetsovandrey76/Yaroslavl-Demidov-State-University/issues"
+  },
+  "homepage": "https://github.com/kuznetsovandrey76/Yaroslavl-Demidov-State-University#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
