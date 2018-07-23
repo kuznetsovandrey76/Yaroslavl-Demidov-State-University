@@ -1,12 +1,12 @@
 Для запуска сервера `node app.js`
 
-1. Работай в папке `static`
-static/
--- index.html
--- style.css
--- data.js
--- main.js
--- templates/..
+1. Работай в папке `static`  
+static/  
+-- index.html  
+-- style.css   
+-- data.js  
+-- main.js  
+-- templates/..  
 2. после, все получившиеся файлы переноси в `/`
 
 **app.js**
