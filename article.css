@@ -1,0 +1,24 @@
+/*   
+.right
+  .right-content   
+*/
+.article__h3 {
+	font-family: Tahoma;
+	color: darkred;	
+}
+
+.article {
+  /*background: khaki;*/
+  padding: 3px;
+  margin: 5px 0;
+  border: 1px solid;
+}
+
+.article-date {
+  font-size: 10px;
+  font-style: italic;
+}
+
+img {
+	width: 100%;
+}
