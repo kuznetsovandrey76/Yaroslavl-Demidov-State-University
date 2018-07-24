@@ -9,8 +9,12 @@ $(document).ready(function(){
 	$('.header-list li a').click(function() {
 		var name_of_selected_section = this.text;
 
+
 		$('.left h1').html(''); 
 		$('.right h1').html(list_of_disciplines[number_of_disciplines.indexOf(this.text)][2]); 
+		// Очищаем содержимое правого блока с контентом при переходе в другой раздел
+		$(".right-content").html('<h1 style="cursor: pointer; background: lightgray; display: inline-block">← выбери тему</h1>');
+
 
 		// Собираем контент блока - left-list
 		var temp = '';
@@ -34,7 +38,5 @@ $(document).ready(function(){
 		});
 
 	});
-
-
 
 });
